@@ -1,0 +1,45 @@
+.Offer{
+    display:flex;
+    
+     justify-content: center;
+     gap:20px;
+     width:85%;
+     margin:50px auto;
+     background-image: linear-gradient(to bottom,#fde1ff,#e1ffea22 60%);
+}
+.Offer-left{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    
+    
+}
+.Offer-left h1{
+    font-size:80px;
+    font-weight: 600;
+    color:#171717;
+}
+.Offer-left p{
+    color:#171717;
+    font-size:22px;
+    font-weight: 500;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.Offer-left button{
+    width:30%;
+    height:10%;
+    border-radius: 50px;
+    border: none;
+    background-color:#ff4141;
+    color:white;
+    font-size:140%;
+    cursor: pointer;
+    margin-top: 40px;
+    font-weight: 500;
+}
+.Offer-right{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
